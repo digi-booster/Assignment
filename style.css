@@ -1,0 +1,31 @@
+div#component {
+  position: relative;
+  height: 300px;
+}
+input#boss {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+span.follower {
+  position: absolute;
+}
+
+span#follower1 {
+  top: 0px;
+  left: 0px;
+}
+span#follower2 {
+  top: 0px;
+  right: 0px;
+}
+span#follower3 {
+  bottom: 0px;
+  left: 0px;
+}
+span#follower4 {
+  bottom: 0px;
+  right: 0px;
+}
